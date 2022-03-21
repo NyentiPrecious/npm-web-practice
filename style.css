@@ -1,0 +1,119 @@
+.container{
+    background-image: url("./imgs/img2.png");
+    height: 100vh;
+    width: 100vw;
+}
+ @media screen and (max-width: 50%) {
+    
+    .footer{
+        
+        flex-wrap: wrap !important;
+    }
+    .out{
+        width: 10vw !important;
+    }
+    .first{
+        width: 20%;
+    }
+    .other{
+        flex: none;
+        flex-direction: row !important;
+        width: 10vw !important;
+    }
+} 
+.nav{
+    position: relative;
+    top: 1rem;
+    height: 200px;
+    background-color: white;
+}
+.out{
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 40vw 5vw;
+    margin-left: 2rem;
+    gap: 300px;
+
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    display: flex;
+}
+.right{
+    display: flex;
+    padding-right: 3rem;
+    
+}
+.p{
+    padding-right: 6rem;
+}
+.s{
+    padding-right: 4rem;
+}
+/* .one{
+    display: flex;
+    gap: 0px;
+} */
+.body{
+    background-image: url("./imgs/img1.png");
+    height: 100vh;
+    color: white;
+    padding-left: 400px;
+    padding-top: 4rem;
+    padding-bottom: 8rem;
+}
+.btn{
+    margin-right: 100px;
+    /* border-radius: 30px; */
+    /* margin-top: 4rem; */
+}
+.second{
+    /* color: white; */
+    padding-left: 400px;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+}
+.img{
+    padding-left: 7rem;
+}
+.third{
+    background-image: url("./imgs/img2.png");
+    height: 40vh;
+    padding-left: 400px;
+    padding-top: 10rem;
+}
+.forth{
+    height: 40vh;
+    padding-left: 400px;
+    padding-top: 5rem;
+}
+.footer{
+    
+    display: flex;
+    grid-template-columns: 20vw, 40vw, 40vw, 40vw;
+    height: 50vh;
+    gap: 80px;
+    
+}
+
+.other{
+    display: flex;
+
+    
+}
+input{
+    padding: 2rem;
+    padding-right: 45rem;
+}
+
+button{
+    border-radius: 30px;
+    width: 250px;  
+    height: 60px;
+    margin: 2rem;
+    /* margin-right: 5rem; */
+}
